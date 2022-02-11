@@ -283,3 +283,83 @@ header,
   background: #65daf9;
   border-color: #65daf9;
 }
+
+/* Newsletter */
+
+#news-area {
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+#news-area p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+#email-input {
+  border-radius: 0;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 1px solid #65daf9;
+  display: inline;
+  box-sizing: border-box;
+  width: 40%;
+  height: 40px;
+}
+
+#news-btn {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 1px solid #65daf9;
+  background-color: #65daf9;
+  text-transform: uppercase;
+  color: white;
+  padding: 0 30px;
+  height: 40px;
+  margin-left: -130px;
+  position: absolute;
+  transition: 0.5s;
+}
+
+#news-btn:hover {
+  background-color: white;
+  color: #65daf9;
+}
+
+/* CTA */
+
+#cta-area {
+  background-color: #65daf9;
+  text-transform: uppercase;
+}
+
+#cta-area .container {
+  padding: 40px 100px;
+}
+
+#cta-area .row {
+  display: block;
+  text-align: center;
+}
+
+#cta-area p {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  width: auto;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+  display: inline;
+  height: 60px;
+  line-height: 60px;
+}
+
+#cta-area .cta-btn {
+  background-color: white;
+  color: #65daf9;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 30px;
+  width: auto;
+  letter-spacing: 2px;
+}

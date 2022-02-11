@@ -100,13 +100,15 @@ $(document).ready(function() {
 
   //Parallax
   setTimeout(function(){
+
+    // Imagem da seção dados
     $('#data-area').parallax({imageSrc: 'img/cidadeparallax.png'});
 
+    // Imagem da seção trabalhe conosco
     $('#apply-area').parallax({imageSrc: 'img/pattern.png'});
   }, 250);
 
   // Filtro do portfólio
-
   $('.filter-btn').on('click', function(){
     
     let type = $(this).attr('id');
@@ -124,9 +126,10 @@ $(document).ready(function() {
     }else{
       eachBoxes('all', boxes);
     }
-    
+
   });
 
+  // Função para manipualçao do filtro do portfólio
   function eachBoxes(type, boxes){
     if(type == 'all'){
       $(boxes).fadeIn();
