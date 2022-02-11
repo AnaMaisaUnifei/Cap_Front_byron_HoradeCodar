@@ -179,7 +179,7 @@ header,
 
 /* Dados */
 
-.circle-box div{
+.circle-box div {
   padding: 0 40px;
 }
 
@@ -193,4 +193,10 @@ header,
   text-align: center;
   font-size: 26px;
   margin-top: 20px;
+}
+
+/* Time */
+
+.card-body {
+  text-align: center;
 }
