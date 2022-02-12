@@ -422,6 +422,11 @@ header,
   background-color: #f1f1f1;
 }
 
+#copy-area .container .aninha {
+  width: 40px;
+  margin: 10px;
+}
+
 #copy-area .container {
   text-align: center;
   padding: 10px 0;
@@ -429,6 +434,7 @@ header,
 
 #copy-area .container p {
   margin-bottom: 0;
+  display: inline-block;
 }
 
 #copy-area .container a {
