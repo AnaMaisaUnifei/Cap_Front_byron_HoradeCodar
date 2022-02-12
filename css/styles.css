@@ -525,3 +525,105 @@ header,
     font-size: 16px;
   }
 }
+
+/* Para Celular */
+@media only screen and (max-width: 787px) {
+  /* slider */
+  #mainSlider {
+    margin-top: 90px;
+  }
+
+  #mainSlider .carousel-caption {
+    top: 5%;
+  }
+
+  #mainSlider .carousel-inner,
+  #mainSlider .carousel-item {
+    height: auto;
+  }
+
+  #mainSlider .carousel-caption h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  #mainSlider .carousel-caption p {
+    display: none;
+  }
+
+  .carousel-caption .main-btn {
+    font-size: 14px;
+  }
+
+  /* sobre */
+  .main-title {
+    font-size: 30px;
+  }
+
+  #about-area img {
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+
+  /* Data */
+
+  .circle-box {
+    width: 50%;
+  }
+
+  /* Time */
+  #time-area .col-md-3 {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  /* Trabalhe conosco */
+  #apply-area {
+    height: auto;
+  }
+
+  #company-img {
+    display: none;
+  }
+
+  /* Portfolio */
+  #portfolio-area .filter-btn {
+    margin-bottom: 20px;
+  }
+
+  .project-box {
+    width: 50%;
+  }
+
+  /* Newsletter */
+  #news-area .main-title {
+    font-size: 24px;
+  }
+
+  #news-area p {
+    font-size: 16px;
+  }
+
+  #email-input {
+    width: 80%;
+  }
+
+  /* CTA */
+  #cta-area .container {
+    padding: 50px 0;
+  }
+
+  #cta-area p,
+  #cta-area .cta-btn {
+    font-size: 14px;
+    letter-spacing: 0;
+    margin: 0;
+    width: 50%;
+  }
+
+  /* Contact */
+  .contact-box {
+    border: none;
+    margin-bottom: 0;
+  }
+}
